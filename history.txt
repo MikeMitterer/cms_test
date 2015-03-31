@@ -1,0 +1,500 @@
+   88  git status
+   89  git commit -am "README again..."
+   90  git status
+   91  git commit -am "SS changed"
+   92  git push origin master
+   93  git push origin master
+   94  git status
+   95  git commit -am "Readme again..."
+   96  git push origin master
+   97  git tag
+   98  git tag 0.0.1
+   99  git-help -x
+  100  git-help -x
+  101  git commit -am "Typo in README"
+  102  git push origin master
+  103  git tag v0.0.2
+  104  git-help -x
+  105  git commit -am "Release 0.0.2"
+  106  git push origin master
+  107  git push origin master
+  108  pub publish
+  109  pub publish
+  110  pub publish
+  111  git status
+  112  git commit -am "doc: Screenshot did not work on pub"
+  113  git status
+  114  git add .
+  115  git commit -am "Some changes in README for pub"
+  116  git push origin 
+  117  git tag v0.0.3
+  118  git-help -x
+  119  git-help -x
+  120  git commit -am "Release 0.0.3"
+  121  git push origin master
+  122  pub publish
+  123  git status
+  124  git commit -am "Preview image"
+  125  git push origin master
+  126  git add .
+  127  git commit -am "PromoImage is in assets"
+  128  git push origin master
+  129  git status
+  130  ll
+  131  git status
+  132  git add .
+  133  git commit -am "Screenshot"
+  134  git push origin master
+  135  git tag
+  136  git tag v0.0.4
+  137  git-help -x
+  138  git commit -am "Release 0.0.4"
+  139  git push origin master
+  140  pub publish
+  141  exit
+  142  cd /Volumes/Daten/DevLocal/DevDart/SiteGen
+  143  git-help
+  144  git-help -a MikeMitterer -i dart-sitegen
+  145  git push -u origin --all
+  146  git push -u origin --tags
+  147  git status
+  148  cd examples/
+  149  ll
+  150  cd simple/
+  151  lstree
+  152  tree
+  153  tree
+  154  brew install tree
+  155  tree 
+  156  tree --help
+  157  tree -a
+  158  sitegen -w --serve
+  159  sitegen -w --serve
+  160  sitegen -w --serve
+  161  sitegen -w --serve
+  162  sitegen -w --serve
+  163  sitegen -w --serve
+  164  sitegen -w --serve
+  165  clear
+  166  sitegen -w --serve
+  167  exit
+  168  cd /Volumes/Daten/DevLocal/DevDart/SiteGen/example/test
+  169  ll
+  170  sitegen
+  171  sitegen -i
+  172  sitegen -g
+  173  sitegen -w --serve
+  174  cd ..
+  175  rm -rf test
+  176  ll
+  177  cd ..
+  178  git status
+  179  exit
+  180  cd /Volumes/Daten/DevLocal/DevDart/WebApp.Base.UI.Angular/example/mm_uia_accordion
+  181  sitegen
+  182  sitegen
+  183  cd /Volumes/Daten/DevLocal/DevDart/SiteGen
+  184  pub global activate --source path .
+  185  git status
+  186  git add .
+  187  git commit -am "feature: -i creates a basic file-structure for you"
+  188  git tag
+  189  git tag v0.0.5
+  190  git-help -x
+  191  git commit -am "Released 0.0.5"
+  192  git push origin master
+  193  git status
+  194  pub publish
+  195  pub global activate --source path .
+  196  cd /Volumes/Daten/DevLocal/DevDart/WebApp.Base.UI.Angular/example/layout-sample
+  197  sitegen --serve
+  198  type git
+  199  cd /usr/local/bin/
+  200  ll
+  201  ll *git*
+  202  git --version
+  203  exit
+  204  cd Temp/
+  205  ll
+  206  mkdir cms_sub
+  207  cd cms_sub/
+  208  git init
+  209  git remote add origin https://github.com/MikeMitterer/cms_sub
+  210  git remote set-url origin https://github.com/MikeMitterer/cms_sub
+  211  git pull
+  212  ll
+  213  git pull -u orgin master
+  214  git pull origin master
+  215  git status
+  216  ll
+  217  echo test > main.css
+  218  git add .
+  219  git commit -am "Style"
+  220  git push origin master
+  221  ll
+  222  cat main.css 
+  223  echo test2 >> main.css 
+  224  git commit -am "Test2"
+  225  git push -u origin master
+  226  git status
+  227  ll
+  228  echo test3 >> main.css 
+  229  git push origin master
+  230  git commit -am "test3"
+  231  git push origin master
+  232  echo test4 >> main.css 
+  233  git commit -am "Test4"
+  234  git push origin master
+  235  echo test5 >> main.css 
+  236  git commit -am "Test5"
+  237  git push origin master
+  238  git --version
+  239  brew update
+  240  brew install git
+  241  git --version
+  242  type git
+  243  exit
+  244  cd /Users/mikemitterer/Temp
+  245  mkdir cms_test
+  246  cd cms_test/
+  247  git init
+  248  cd ..
+  249  mv cms_test/ cms_test_mm
+  250  cd cms_test_mm/
+  251  git remote add origin https://github.com/MikeMitterer/cms_test.git
+  252  git remote set-url origin https://github.com/MikeMitterer/cms_test.git
+  253  echo test > test.html
+  254  git status
+  255  git add .
+  256  git push 
+  257  git push --set-upstream origin master
+  258  cat .git/config 
+  259  git push origin master
+  260  git push -u origin master
+  261  git status
+  262  git commit -am "Test 1"
+  263  git push -u origin master
+  264  git push
+  265  ll
+  266  echo `date` >> test.html 
+  267  cat test.html 
+  268  git commit -am "`date` - test"
+  269  git push
+  270  git pull
+  271  git branch
+  272  ll
+  273  cat test.html 
+  274  git pull
+  275  cat test.html 
+  276  git pull
+  277  git branch
+  278  git remote add bitbucket git@bitbucket.org:mikemitterer/cms_test.git
+  279  git branch
+  280  git branch feature2
+  281  cd checkout feature2
+  282  git checkout feature2
+  283  git pull -u bitbucket feature2 
+  284  ll
+  285  cat test.html 
+  286  cat .git/config 
+  287  git push -u origin feature2 
+  288  cat .git/config 
+  289  git status
+  290  git pull
+  291  git submodule add https://github.com/MikeMitterer/cms_sub styles
+  292  ll
+  293  cd styles/
+  294  ll
+  295  cd ..
+  296  ll
+  297  cd styles/
+  298  ll
+  299  git pull 
+  300  ll
+  301  cd ..
+  302  git pull
+  303  git status
+  304  cd styles/
+  305  ll
+  306  git status
+  307  git pull
+  308  cat main.css 
+  309  cd ..
+  310  git status
+  311  git add .
+  312  git status
+  313  git push origin master
+  314  git commit -am "Mit submodule"
+  315  git push origin master
+  316  git pull
+  317  git status
+  318  git pull origin feature2
+  319  git push origin master
+  320  git branch
+  321  git push origin feature2
+  322  ll
+  323  git checkout master
+  324  git pull
+  325  ll
+  326  git merge feature2
+  327  ll
+  328  idea test.html 
+  329  git status
+  330  git add .
+  331  git commit -am "Conflict"
+  332  git push orign master
+  333  git push origin master
+  334  git status
+  335  git pull
+  336  ll
+  337  cd styles/
+  338  ll
+  339  git status
+  340  git pull
+  341  cd ..
+  342  git status
+  343  git add .
+  344  git commit -am "Styles II"
+  345  git push origin master
+  346  git pull
+  347  ll
+  348  cd styles/
+  349  git pull
+  350  cd ..
+  351  git status
+  352  git diff
+  353  git styles/
+  354  git status
+  355  git diff styles/
+  356  cd styles/
+  357  ll
+  358  git diff
+  359  git status
+  360  cd ..
+  361  ll
+  362  git status
+  363  git add .
+  364  git status
+  365  git diff styles
+  366  git diff styles/
+  367  ll
+  368  cd styles/
+  369  ll
+  370  git status
+  371  cd ..
+  372  cd styles
+  373  ll
+  374  git pull
+  375  cd ..
+  376  git diff submoule
+  377  git status
+  378  git submodule 
+  379  git ls-tree
+  380  git ls-tree styles/
+  381  git ls-tree styles
+  382  git ls-tree +467272410d1d4d44b265bea67c0478766d7dbd5b
+  383  git submodule foreach --recursive git diff --name-status
+  384  cd styles/
+  385  ll
+  386  git status
+  387  cd ..
+  388  git diff --submodule
+  389  exit
+  390  cd Temp/
+  391  ll
+  392  mkdit cms_test_mtest
+  393  mkdir cms_test_mtest
+  394  cd cms_test_mtest/
+  395  git init
+  396  git remote add origin https://github.com/MikeMitterer/cms_test.git
+  397  git remote set_url origin https://github.com/MikeMitterer/cms_test.git
+  398  git remote set-url origin https://github.com/MikeMitterer/cms_test.git
+  399  git pull
+  400  git pull -u origin master
+  401  ll
+  402  pwd
+  403  basename `pwd`
+  404  echo `basename `pwd``
+  405  echo basename `pwd`
+  406  echo "basename `pwd`"
+  407  echo `basename` `pwd`"
+  408  basename `pwd` >> test.html && date >> test.html 
+  409  cat test.html 
+  410  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  411  git status
+  412  git commit -am "TEt"
+  413  git push
+  414  git push -u origin master
+  415  ll
+  416  cat .git/config 
+  417  bit branch feature 1
+  418  bit branch feature1
+  419  git branch feature1
+  420  git checkout feature1 
+  421  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  422  git status
+  423  giut commit -am "F1-test"
+  424  git commit -am "F1-test"
+  425  git push -u origin feature1
+  426  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  427  git status
+  428  git commit -am "Next f1"
+  429  git push
+  430  git branch
+  431  git checkout master
+  432  git pull
+  433  git branch
+  434  git rm feature1
+  435  git branch -d feature1 
+  436  git branch
+  437  git branch help
+  438  git branch -d help
+  439  git branch --help
+  440  cat .git/config 
+  441  git branch feature2
+  442  git checkout feature2
+  443  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  444  git push -u origin feature2
+  445  git statu
+  446  git status
+  447  git commit -am "test f2"
+  448  git push
+  449  cat .git/config 
+  450  git remote add bitbucket git@bitbucket.org:mikemitterer/cms_test.git
+  451  git push -u bitbucket --all
+  452  git push -u bitbucket --tags
+  453  git status
+  454  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  455  git push
+  456  git statu
+  457  git status
+  458  git commit -am "F2 BB"
+  459  git push
+  460  git status
+  461  git checkout master
+  462  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  463  git status
+  464  git commit -am "Test for master"
+  465  git config
+  466  git config --local
+  467  git config --local --get-all
+  468  git config --get
+  469  git config --local -l
+  470  git push origin master
+  471  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  472  git commit -am "Test master2"
+  473  git push origin master
+  474  cd .git/hooks/
+  475  ll
+  476  chmod 700 pre-push
+  477  cd ..
+  478  cd ..
+  479  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  480  git status
+  481  git commit -am "Test master3"
+  482  git push origin master
+  483  git push origin feature2
+  484  git status
+  485  git branch -u feature3/master
+  486  ll
+  487  git status
+  488  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  489  git status
+  490  git push -u feature3/master
+  491  git branch --set-upstream-to=origin/feature3 master
+  492  git push -u
+  493  basename `pwd` >> test.html && echo "- `date`" >> test.html && cat test.html 
+  494  git status
+  495  git commit -am "upstream"
+  496  git push -u origin/feature4 master
+  497  git status
+  498  git pull 
+  499  git push
+  500  exit
+  501  cd Temp/cms_test_mm
+  502  git status
+  503  ll
+  504  git status
+  505  git add .
+  506  git commit -am "Styles"
+  507  git push origin master
+  508  cat .git/config 
+  509  git remote set-url origin https://github.com/MikeMitterer/cms_test
+  510  git push origin master
+  511  git push origin master
+  512  git status
+  513  ll
+  514  git rm styles
+  515  git status
+  516  git subtree --prefix styles https://github.com/MikeMitterer/cms_sub
+  517  git subtree add --prefix styles https://github.com/MikeMitterer/cms_sub
+  518  git status
+  519  git commit -am "Styles gelöscht"
+  520  git push origin master
+  521  git remote set-url origin https://github.com/MikeMitterer/cms_test.git
+  522  git push origin master
+  523  git remote add origin https://github.com/MikeMitterer/cms_test.git
+  524  git push origin master
+  525  git remote set-url origin git@github.com:MikeMitterer/cms_test.git
+  526  git push origin master
+  527  git subtree add --prefix styles https://github.com/MikeMitterer/cms_sub
+  528  git subtree add --prefix styles https://github.com/MikeMitterer/cms_sub master
+  529  ll
+  530  cat .gitmodules 
+  531  cd styles/
+  532  ll
+  533  git subtree add --prefix styles https://github.com/MikeMitterer/cms_sub master
+  534  cd ..
+  535  git subtree add --prefix styles https://github.com/MikeMitterer/cms_sub master
+  536  cd styles/
+  537  ll
+  538  cat main.css 
+  539  echo master1 >> main.css 
+  540  cd ..
+  541  git status
+  542  git commit -am "Styles geändert"
+  543  git push origin master
+  544  git status
+  545  git remote add -f cmssub https://github.com/MikeMitterer/cms_sub
+  546  git status
+  547  git subtree pull --prefix styles/ cmssub master 
+  548  git subtree pull --prefix styles/ cmssub master 
+  549  git statu
+  550  git status
+  551  git diff
+  552  ll
+  553  cd styles/
+  554  ll
+  555  cat main.css 
+  556  mcedit main.css 
+  557  cd ..
+  558  git status
+  559  git push origin master
+  560  git commit -am "sss"
+  561  git push origin master
+  562  git subtree push --prefix styles/ cmssub feature2
+  563  git remote set-url cmssub git@github.com:MikeMitterer/cms_sub.git
+  564  git subtree push --prefix styles/ cmssub feature2
+  565  git subtree pull --prefix styles/ cmssub master 
+  566  git status
+  567  cd styles/
+  568  ll
+  569  cat main.css 
+  570  cd ..
+  571  ll
+  572  cd styles/
+  573  ll
+  574  cat main.css 
+  575  echo master2 >> main.css 
+  576  cd ..
+  577  git status
+  578  git commit -am "Master2"
+  579  git push origin master
+  580  git subtree push --prefix styles/ cmssub feature2
+  581  cd ..
+  582  cd cms_test_mm
+  583  git status
+  584  git history
+  585  history
+  586  history
+  587  history > history.txt
